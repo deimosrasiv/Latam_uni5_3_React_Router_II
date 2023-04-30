@@ -43,8 +43,8 @@ const ContactPage = () => {
           <TextField
             required
             fullWidth
-            label="Name"
-            name="name"
+            label="Nombre"
+            name="nombre"
             value={formState.name}
             onChange={handleInputChange}
             margin="normal"
@@ -62,8 +62,8 @@ const ContactPage = () => {
           <TextField
             required
             fullWidth
-            label="Message"
-            name="message"
+            label="Menssage"
+            name="mensage"
             multiline
             rows={4}
             value={formState.message}
@@ -71,7 +71,7 @@ const ContactPage = () => {
             margin="normal"
           />
           <Button type="submit" variant="contained" color="primary">
-            Send
+            Enviar
           </Button>
         </form>
       </Grid>
