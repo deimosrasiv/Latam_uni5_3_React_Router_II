@@ -37,7 +37,7 @@ const ContactPage = () => {
     >
       <Grid item xs={12} sm={8} md={6}>
         <Typography variant="h4" component="h1" align="center">
-          Contactanos
+          Contáctanos
         </Typography>
         <form onSubmit={handleSubmit}>
           <TextField
