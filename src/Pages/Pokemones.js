@@ -142,17 +142,41 @@ export default function Pokemones() {
                   <Grid container item xs={12} sm={6} md={4}></Grid>
 
                   <Grid item xs={12} sm={6} md={4}>
-                    <Typography
-                      variant="h6"
-                      component="h1"
-                      gutterBottom
-                      textAlign="center"
-                    >
+
+                    <Typography textAlign="center">
+                      Tipo de Pokemon: {pokemonDetails.types[0].type.name}
+                    </Typography>
+
+                    <Typography textAlign="center">
                       Altura: {pokemonDetails.height}
                     </Typography>
 
                     <Typography textAlign="center">
                       Peso: {pokemonDetails.weight}
+                    </Typography>
+
+                    <Typography textAlign="center">
+                      HP: {pokemonDetails.stats[0].base_stat}
+                    </Typography>
+
+                    <Typography textAlign="center">
+                      Ataque: {pokemonDetails.stats[1].base_stat}
+                    </Typography>
+
+                    <Typography textAlign="center">
+                      Defensa: {pokemonDetails.stats[2].base_stat}
+                    </Typography>
+
+                    <Typography textAlign="center">
+                      Ataque Especial: {pokemonDetails.stats[3].base_stat}
+                    </Typography>
+
+                    <Typography textAlign="center">
+                      Defensa Especial: {pokemonDetails.stats[4].base_stat}
+                    </Typography>
+
+                    <Typography textAlign="center">
+                      Velocidad: {pokemonDetails.stats[4].base_stat}
                     </Typography>
 
                     <Typography textAlign="center">
