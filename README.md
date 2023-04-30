@@ -7,4 +7,4 @@ asignación de una clase activa a la ruta que se esté visitando en una SPA.
 A continuación te mostramos imágenes de las vistas de la aplicación que deberás realizar:
 
 
-- [Deploy](https://roaring-crepe-d8652b.netlify.app/)
+- [Deploy](https://chipper-stardust-e4c85a.netlify.app/)
