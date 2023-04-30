@@ -62,7 +62,7 @@ const ContactPage = () => {
           <TextField
             required
             fullWidth
-            label="Menssage"
+            label="Mensage"
             name="mensage"
             multiline
             rows={4}
